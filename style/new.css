@@ -136,7 +136,7 @@ q:after {
 
 .logo-new {
 	background-repeat: no-repeat;
-	background-image: url(images/full-logo.png);
+	background-image: url(../images/full-logo.png);
 	background-position: center;
 	float: left;
 	margin: 0 auto;
@@ -827,7 +827,7 @@ div#lm-after-post-checklist {
 }
 
 .heading-1-background {
-	background-image: url(/images/image-border-line.png);
+	background-image: url(..//images/image-border-line.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -841,7 +841,7 @@ div#lm-after-post-checklist {
 }
 
 .adults-background {
-	background-image: url(/images/adults-background-blue.jpg);
+	background-image: url(..//images/adults-background-blue.jpg);
 }
 
 .primary-cta-button,
@@ -881,7 +881,7 @@ div#lm-after-post-checklist {
 }
 
 .call-cta-in-button {
-	background-image: url(/images/phone-ring-icon-large.png);
+	background-image: url(..//images/phone-ring-icon-large.png);
 	background-size: 20px;
 	background-position: 25px 13px;
 	padding: 15px 0 15px 25px;
@@ -947,7 +947,7 @@ div#lm-after-post-checklist {
 
 
 .line-border-separator {
-	background-image: url(/images/image-border-line.png);
+	background-image: url(../images/image-border-line.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
@@ -1025,7 +1025,64 @@ div#lm-after-post-checklist {
 	font-size: 16px;
 	padding: 16px 32px;
   } */
+/* contact us form start */
+.form-c {
+	flex-wrap: wrap;
+	/* max-width: 50%; */
+	/* margin: 36px auto; */
+	background-color: #EDDFEF;
+	padding: 22px;
+	border-radius: 12px;
+}
 
+.form-input-2 {
+	width: 46%;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+	margin: 10px 0;
+	padding: 2px 7px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-input {
+	width: 95%;
+	font-size: 20px;
+	border: none;
+	border-radius: 8px;
+	margin: 10px 0;
+	padding: 2px 7px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+	padding: 8px 18px;
+	outline: none;
+	margin: 3px 9px;
+	border: navajowhite;
+	border-radius: 6px;
+	font-size: 19px;
+	cursor: pointer;
+	color: #000000;
+	background-color: #9089f3;
+	transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+	.form-c {
+		max-width: 100%;
+		margin: 8px;
+		padding: 12px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.form-input-2 {
+		width: 95%;
+	}
+}
+
+/* contact us form end */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
 /* Safari & Android Browser */
